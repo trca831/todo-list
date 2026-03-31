@@ -1,16 +1,38 @@
-# React + Vite
+# Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a simple React app that displays a list of todo items. I built this project to practice using JSX, components, and the map() function to render lists dynamically in React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Installation
 
-## React Compiler
+Clone the repository:
+git clone <your-repo-url>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Navigate into the project folder:
+cd <your-project-name>
 
-## Expanding the ESLint configuration
+Install dependencies:
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running the App
+
+Start the development server:
+npm start
+
+Then open your browser and go to:
+http://localhost:3000
+
+## What I Learned
+
+- How to use map() to loop through data in React
+- How to render lists using JSX
+- Why keys are important when rendering lists
+- Basic React project structure
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
