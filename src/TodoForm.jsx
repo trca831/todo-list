@@ -1,13 +1,9 @@
-function TodoForm() {
-  return (
-    <form>
-      <label htmlFor="todoTitle">Todo</label>
-      <input type="text" id="todoTitle" />
-      <button type="submit" disabled>
-        Add Todo
-      </button>
-    </form>
-  );
-}
+//now we need to update the TodoForm component to handler form
+//submissions and call the addTodo function
 
-export default TodoForm;
+//start with importing useRef at top
+import React from "react";
+import { useRef } from "react";
+
+function TodoForm({ onAddTodo }) {
+  const i
